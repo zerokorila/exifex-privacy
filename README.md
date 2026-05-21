@@ -1,0 +1,1 @@
+# exifex-privacy
