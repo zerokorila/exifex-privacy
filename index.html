@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Exifex</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #EAEAEA;
+            background-color: #05090E;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            color: #2563EB;
+            font-size: 28px;
+            border-bottom: 1px solid #182436;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #ffffff;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        p {
+            color: #A0A0A0;
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            color: #A0A0A0;
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+        strong {
+            color: #ffffff;
+        }
+        .date {
+            font-style: italic;
+            color: #64748B;
+        }
+        .footer {
+            margin-top: 50px;
+            border-top: 1px solid #182436;
+            padding-top: 20px;
+            font-size: 12px;
+            color: #64748B;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for Exifex</h1>
+    <p class="date">Last Updated: May 2026</p>
+
+    <p>At <strong>Exifex</strong>, we take your privacy seriously. This Privacy Policy explains how our mobile application handles user data. Exifex is designed from the ground up as a Privacy-First utility. All core operations, metadata cleaning, and editing are executed completely offline on your own device.</p>
+
+    <h2>1. Information We Do Not Collect</h2>
+    <p>Exifex does not collect, store, transmit, or share any personal information, location tracking logs, or media files to external servers.</p>
+    <p>Your photos, videos, and metadata never leave your physical device.</p>
+    <p>We do not use any third-party analytics frameworks, tracking cookies, or user behavioral profiling code.</p>
+
+    <h2>2. Device Permissions Used & Why</h2>
+    <p>To work seamlessly on modern Android devices, Exifex requires specific permissions. Here is exactly why we need them according to our source manifest:</p>
+    <ul>
+        <li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Required on older Android versions to load the media you select and to securely write edited or cleaned files back to your device storage.</li>
+        <li><strong>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO:</strong> Required on modern Android versions to browse, display, and load your localized photos, videos, and album selections directly inside the Exifex interface.</li>
+        <li><strong>READ_MEDIA_VISUAL_USER_SELECTED:</strong> Supports partial media selections, giving you complete control over which specific files our app is allowed to see.</li>
+        <li><strong>ACCESS_MEDIA_LOCATION:</strong> Essential to read and display original geographic location data (GPS coordinates) hidden inside your photos and videos, enabling you to clean or edit them.</li>
+        <li><strong>FOREGROUND_SERVICE / FOREGROUND_SERVICE_DATA_SYNC:</strong> Required to maintain a stable background task execution while running intensive operations (such as deep batch scanning or multi-file clearing) so the operating system doesn’t kill the processing engine midway.</li>
+        <li><strong>POST_NOTIFICATIONS:</strong> Used explicitly to alert you when background tasks (like background batch cleaning or a direct share action) are successfully finished.</li>
+    </ul>
+
+    <h2>3. Internet Connectivity & Third-Party Services</h2>
+    <p>Exifex is fundamentally an offline application. However, we utilize one optional online integration:</p>
+    <ul>
+        <li><strong>Google Maps SDK:</strong> We integrate Google Maps to provide a visual coordinate selection map layout. When you use the Map Picker interface, your device establishes a direct connection to Google's servers to fetch geographic map tiles.</li>
+        <li><strong>Data Implications:</strong> Loading map tiles requires internet connectivity. This action is governed independently by the Google Privacy Policy. Exifex does not control, monitor, or capture any data transmitted during this map-fetching transaction.</li>
+    </ul>
+
+    <h2>4. Data Security & Retention</h2>
+    <ul>
+        <li><strong>Zero Retention:</strong> Because all code execution happens directly in your phone's memory (RAM) and local temporary sandboxes, we do not store history logs of your edited items.</li>
+        <li><strong>Temporary Cache Disposal:</strong> The app maintains isolated temporary directories to process large batches safely. Users can wipe this footprint instantly at any point via the built-in "Clear Temporary Cache" tool inside the App Settings screen.</li>
+    </ul>
+
+    <h2>5. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect modifications in application logic or to align with updated Google Play Store Policies. Any changes will be posted directly inside this document.</p>
+
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions or feedback regarding how Exifex treats processing privacy, please reach out to us at:</p>
+    <p><strong>Email:</strong> [Email]</p>
+
+    <div class="footer">
+        &copy; 2026 Exifex. All rights reserved.
+    </div>
+
+</body>
+</html>
